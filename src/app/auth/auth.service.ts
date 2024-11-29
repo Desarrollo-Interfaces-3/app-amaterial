@@ -9,9 +9,9 @@ export class AuthService {
 
 
   login(usuario:string, password:string){
-    if(usuario == "lsalvat" && password == "123"){
+    //if(usuario == "lsalvat" && password == "123"){
       sessionStorage.setItem("login", "true")
-    }
+    //}
   }
 
   logout(){
